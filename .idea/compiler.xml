@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gateway" />
+        <module name="eureka-server" />
+        <module name="order-service-api" />
+        <module name="order-service" />
+        <module name="user-service" />
+        <module name="user-service-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-server" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre\lib\rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre\lib\jce.jar&quot; -Xlint:deprecation" />
+      <module name="gateway" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre\lib\rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre\lib\jce.jar&quot; -Xlint:deprecation" />
+      <module name="order-server" options="" />
+      <module name="order-service" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre\lib\rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre\lib\jce.jar&quot; -Xlint:deprecation" />
+      <module name="order-service-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre\lib\rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre\lib\jce.jar&quot; -Xlint:deprecation" />
+      <module name="user-server" options="" />
+      <module name="user-service" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre\lib\rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre\lib\jce.jar&quot; -Xlint:deprecation" />
+      <module name="user-service-api" options="-parameters -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_131/jre\lib\rt.jar;C:/Program Files/Java/jdk1.8.0_131/jre\lib\jce.jar&quot; -Xlint:deprecation" />
+    </option>
+  </component>
+</project>
