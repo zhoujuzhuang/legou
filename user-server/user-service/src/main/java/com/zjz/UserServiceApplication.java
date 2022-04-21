@@ -12,7 +12,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
 @EnableDiscoveryClient // 开启EurekaClient功能
-@EnableFeignClients  //开启Feign的功能
+@EnableFeignClients   //开启Feign的功能
 @MapperScan(basePackages = "com.zjz.mapper")
 public class UserServiceApplication{
 
