@@ -1,0 +1,38 @@
+#server:
+#  port: 8081
+#
+##  eureka:
+##    client:
+##      service-url: # EurekaServer地址
+##        defaultZone: http://127.0.0.1:10086/eureka
+##  instance:
+##    prefer-ip-address: true # 当调用getHostname获取实例的hostname时，返回ip而不是host名称
+##    ip-address: 127.0.0.1 # 指定自己的ip信息，不指定的话会自己寻找
+#
+#spring:
+#  application:
+#    name: order-server # 应用名称，会在Eureka中显示
+#  datasource:
+#    driverClassName: com.mysql.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    url: jdbc:mysql://localhost:3306/user1?useUnicode=true&characterEncoding=utf-8&rewriteBatchedStatements=true&autoReconnect=true&failOverReadOnly=false&useSSL=false&allowMultiQueries=true
+#    username: root
+#    password: nlfUp7Nz/H35aWkz/bp+P2YjQa4tBolqpycvd/vMR/NM6d41jutoZURacjzgyif2Q6lW/SlhuXf6z//c9+n4ZA==
+#    # 配置 connection-properties，启用加密，配置公钥。
+#    druid:
+#      publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALL4lS/ZQphO/HkPFOJ7BNUTgl1pKqLh+lbkMVWnpzRZhhykNe6b54NO8ZcC/rNms0NT6IbdGgtT9DzoMnKkWokCAwEAAQ==
+#      connection-properties: config.decrypt=true;config.decrypt.key=${spring.datasource.druid.publicKey};password=${spring.datasource.password}
+#      # 启用ConfigFilter
+#      filter:
+#        config:
+#          enabled: true
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#mybatis:
+#  type-aliases-package: com.zjz.entity
+#  mapper-locations: classpath*:mappers/*.xml
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#

@@ -1,35 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4e21a81-44ba-409e-9b61-93e93a1db6d3" name="Default Changelist" comment="clear">
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/order-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-server/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+    <list default="true" id="d4e21a81-44ba-409e-9b61-93e93a1db6d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/zjz/gateway/Config/GlobalCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/zjz/gateway/Config/LegouGlobalFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/zjz/gateway/ZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/zjz/gateway/GateWayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-server/order-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/order-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-server/order-service-api/src/main/java/com/zjz/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/order-service-api/src/main/java/com/zjz/pojo/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-server/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-server/order-service/src/main/java/com/zjz/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/order-service/src/main/java/com/zjz/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-server/order-service/src/main/java/com/zjz/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/order-service/src/main/java/com/zjz/mapper/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-server/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/order-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server/user-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server/user-service-api/src/main/java/com/zjz/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service-api/src/main/java/com/zjz/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/aop/DataSourceAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/aop/DataSourceAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/aop/RedisAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/aop/RedisAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/config/MyBatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/feign/OrderFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/feign/OrderFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +54,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -313,7 +286,7 @@
       <workItem from="1678270753399" duration="682000" />
       <workItem from="1685110633875" duration="46000" />
       <workItem from="1686548868834" duration="6494000" />
-      <workItem from="1686555555318" duration="19763000" />
+      <workItem from="1686555555318" duration="22339000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1650382145467</created>
@@ -364,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650553142550</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="eureka换成nacos，加入配置中心&#10;tkMapper换成mybatis-plus">
+      <created>1686575815906</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686575815907</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +474,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="clear" />
-    <option name="LAST_COMMIT_MESSAGE" value="clear" />
+    <MESSAGE value="eureka换成nacos，加入配置中心&#10;tkMapper换成mybatis-plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="eureka换成nacos，加入配置中心&#10;tkMapper换成mybatis-plus" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,9 +501,9 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/service/UserService.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="37" />
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.13/mybatis-3.5.13-sources.jar!/org/apache/ibatis/binding/MapperMethod.java</url>
+          <line>252</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
