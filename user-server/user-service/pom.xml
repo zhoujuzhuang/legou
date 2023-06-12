@@ -13,9 +13,17 @@
 
     <dependencies>
         <!-- Eureka客户端 -->
-        <dependency>
+     <!--   <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
         <!--feign-->
         <dependency>
@@ -54,9 +62,13 @@
             <artifactId>mybatis-spring-boot-starter</artifactId>
         </dependency>
         <!-- 通用Mapper启动器 -->
-        <dependency>
+       <!-- <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-spring-boot-starter</artifactId>
+        </dependency>-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
         <!-- alibaba的druid数据库连接池 -->
         <dependency>
@@ -107,7 +119,7 @@
 
         <resources>
             <resource>
-                <directory>src/main/resources</directory>
+                <directory>src/main/java</directory>
             </resource>
             <resource>
                 <targetPath>${basedir}/target/classes/com/zjz/mapper</targetPath>

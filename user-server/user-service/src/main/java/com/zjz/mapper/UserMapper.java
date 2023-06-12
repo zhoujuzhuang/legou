@@ -1,10 +1,8 @@
 package com.zjz.mapper;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.zjz.pojo.User;
-import tk.mybatis.mapper.common.Mapper;
 
-import java.util.List;
-
-public interface UserMapper extends Mapper<User> {
-	List<User> selectUser(User user);
+public interface UserMapper extends BaseMapper<User> {
+    User selectUser(User user);
 }

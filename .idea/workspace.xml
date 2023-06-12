@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4e21a81-44ba-409e-9b61-93e93a1db6d3" name="Default Changelist" comment="">
+    <list default="true" id="d4e21a81-44ba-409e-9b61-93e93a1db6d3" name="Default Changelist" comment="clear">
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/order-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/zjz/gateway/Config/GlobalCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/zjz/gateway/Config/LegouGlobalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/zjz/gateway/ZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/zjz/gateway/GateWayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/order-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/order-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/order-service-api/src/main/java/com/zjz/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/order-service-api/src/main/java/com/zjz/pojo/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/order-service/src/main/java/com/zjz/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/order-service/src/main/java/com/zjz/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/order-service/src/main/java/com/zjz/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/order-service/src/main/java/com/zjz/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/user-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/user-service-api/src/main/java/com/zjz/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service-api/src/main/java/com/zjz/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/aop/DataSourceAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/aop/DataSourceAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/aop/RedisAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/aop/RedisAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/config/MyBatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/feign/OrderFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/feign/OrderFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/user-service/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/user-service/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +46,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -37,10 +77,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/eureka-server/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/order-server/order-service/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/mapper" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -51,11 +92,11 @@
       <recent name="com.pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java_project\legou\user-server\user-service\src\main\java\com\zjz\mapper" />
+      <recent name="D:\Java_project\legou\user-server\user-service\src\main\resources" />
       <recent name="D:\Java_project\legou\order-server\order-service\src\main\resources" />
       <recent name="D:\Java_project\legou\order-server\order-service\src\main\java" />
       <recent name="D:\Java_project\legou\user-server\user-service\src\main\java\com\zjz" />
-      <recent name="D:\Java_project\legou\user-server\user-service\src\main\resources" />
-      <recent name="D:\Java_project\legou\gateway\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -70,7 +111,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaApplication">
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+    <configuration name="LegouGlobalFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjz.gateway.Config.LegouGlobalFilter" />
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zjz.gateway.Config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisAdvice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjz.aop.RedisAdvice" />
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zjz.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="user-server [clean,install,-U]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -111,6 +178,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zjz.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zjz.gateway.GateWayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="order-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zjz.OrderApplication" />
@@ -126,31 +206,86 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="gateway" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zjz.gateway.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zjz.gateway.ZuulApplication" />
+    <configuration name="tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="tomcat9" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk1.8.0_131">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_legou" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49968" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LegouGlobalFilter" />
+      <item itemvalue="Application.RedisAdvice" />
       <item itemvalue="Maven.user-server [clean,install,-U]" />
       <item itemvalue="Spring Boot.UserServiceApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
-      <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.GateWayApplication" />
+      <item itemvalue="Tomcat Server.tomcat8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaApplication" />
-        <item itemvalue="Spring Boot.ZuulApplication" />
         <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.GateWayApplication" />
+        <item itemvalue="Application.RedisAdvice" />
+        <item itemvalue="Application.LegouGlobalFilter" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +303,17 @@
       <workItem from="1650301483241" duration="1756000" />
       <workItem from="1650364547513" duration="3492000" />
       <workItem from="1650379874818" duration="65000" />
-      <workItem from="1650382028545" duration="4322000" />
+      <workItem from="1650382028545" duration="4722000" />
+      <workItem from="1650552891693" duration="1644000" />
+      <workItem from="1650881343565" duration="9221000" />
+      <workItem from="1651062443491" duration="2021000" />
+      <workItem from="1651079705574" duration="432000" />
+      <workItem from="1656291093271" duration="672000" />
+      <workItem from="1677594742320" duration="1249000" />
+      <workItem from="1678270753399" duration="682000" />
+      <workItem from="1685110633875" duration="46000" />
+      <workItem from="1686548868834" duration="6494000" />
+      <workItem from="1686555555318" duration="19763000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1650382145467</created>
@@ -205,7 +350,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650382729194</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="clear">
+      <created>1650389401079</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650389401079</updated>
+    </task>
+    <task id="LOCAL-00007" summary="clear">
+      <created>1650553142550</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650553142550</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,9 +423,61 @@
             </State>
           </value>
         </entry>
+        <entry key="3">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="4">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -275,11 +486,51 @@
       <set>
         <option value="1" />
         <option value="2" />
+        <option value="3" />
+        <option value="4" />
       </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="clear" />
+    <option name="LAST_COMMIT_MESSAGE" value="clear" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/binding/MapperMethod.java</url>
+          <line>218</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/builder/MapperBuilderAssistant.java</url>
+          <line>504</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/builder/MapperBuilderAssistant.java</url>
+          <line>300</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.13/mybatis-3.5.13-sources.jar!/org/apache/ibatis/binding/MapperMethod.java</url>
+          <line>224</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-server/user-service/src/main/java/com/zjz/service/UserService.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="declaringClass.isAssignableFrom(superInterface)" language="JAVA" />
+        <watch expression="mappedStatements" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

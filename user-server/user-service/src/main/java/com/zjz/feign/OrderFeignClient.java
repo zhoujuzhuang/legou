@@ -2,10 +2,7 @@ package com.zjz.feign;
 
 
 import com.zjz.api.OrderApi;
-import com.zjz.pojo.Order;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 
 /**
  *
@@ -21,7 +18,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  *
  */
 
-@FeignClient(value = "ORDER-SERVER")
+@FeignClient(value = "order-server")
 public interface OrderFeignClient extends OrderApi {
 
 }

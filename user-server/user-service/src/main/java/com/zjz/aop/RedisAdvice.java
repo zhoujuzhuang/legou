@@ -18,14 +18,18 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.List;
 
-@Aspect
+//@Aspect
 @Component
 public class RedisAdvice {
+
+	public static void main(String[] args) {
+		System.out.println(11);
+	}
 
 	@Autowired
 	private StringRedisTemplate redisTemplate;
 
-	@Pointcut("execution(* com.kimleysoft.service..*.*(..))")
+	@Pointcut("execution(* com.zjz.service..*.*(..))")
 	private void pt1() {
 	}
 

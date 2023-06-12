@@ -1,16 +1,15 @@
 package com.zjz.pojo;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+
 import java.io.Serializable;
 
-@Table(name="tb_order")
+@TableName("tb_order")
 public class Order implements Serializable{
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@TableId(type = IdType.INPUT)
 	private Long orderId;
 	private String userName;
 	private Float money;

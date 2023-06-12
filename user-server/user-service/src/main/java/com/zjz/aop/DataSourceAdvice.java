@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class DataSourceAdvice{
 	
-	@Pointcut("execution(* com.kimleysoft.service..*.*(..))")
+	@Pointcut("execution(* com.zjz.service..*.*(..))")
 	private void pt1(){}
 	
 	// service方法执行之前被调用

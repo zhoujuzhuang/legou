@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zjz.mapper.UserMapper">
-	<resultMap id="BaseResultMap" type="com.kimleysoft.entity.User" autoMapping="true">
+	<resultMap id="BaseResultMap" type="com.zjz.pojo.User" autoMapping="true">
 	</resultMap>
 	<sql id="query_Where_Clause">
 		<if test="id != null">
@@ -17,7 +17,7 @@
 			AND age = #{age}
 		</if>
 	</sql>
-	<select id="selectUser" parameterType="com.kimleysoft.entity.User" resultMap="BaseResultMap">
+	<select id="selectUser" parameterType="com.zjz.pojo.User" resultMap="BaseResultMap">
 		select
 		*
 		from tb_user

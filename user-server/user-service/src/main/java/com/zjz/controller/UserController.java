@@ -27,7 +27,7 @@ public class UserController {
 		return userService.getUser(user);
 	}
 
-	@GetMapping("order/{orderid}")
+	@GetMapping("/order/{orderid}")
 	public Order getOrderById(@PathVariable Long orderid){
 		return orderFeignClient.getOrderById(orderid);
 	}

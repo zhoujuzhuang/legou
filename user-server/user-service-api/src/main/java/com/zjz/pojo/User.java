@@ -1,19 +1,21 @@
 package com.zjz.pojo;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+
 import java.io.Serializable;
 
-@Table(name="tb_user")
+@TableName("tb_user")
 public class User implements Serializable{
-
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@TableId(type = IdType.INPUT,value = "ID")
 	private Long id;
+	@TableField(value = "NAME")
 	private String name;
+	@TableField(value = "AGE")
 	private Integer age;
+	@TableField(value = "SEX")
 	private Boolean sex;
 	
 	public Long getId() {

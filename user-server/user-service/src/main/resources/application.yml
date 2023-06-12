@@ -1,68 +1,72 @@
-eureka:
-  client:
-    service-url: # EurekaServer地址
-      defaultZone: http://127.0.0.1:10086/eureka
-  instance:
-    prefer-ip-address: true # 当调用getHostname获取实例的hostname时，返回ip而不是host名称
-    ip-address: 127.0.0.1 # 指定自己的ip信息，不指定的话会自己寻找
-
-spring:
-  application:
-    name: user-server # 应用名称，会在Eureka中显示
-  thymeleaf:
-    cache: false #关闭模板缓存
- # activemq:
- #   broker-url: tcp://localhost:61616
- #   queuename: queuemessage
- #   topicname: topicmessage
- # jms:
-  #  pub-sub-domain: true #开启支持topic广播
-  redis: localhost
-  datasource:
-    master: #主数据库
-      publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALL4lS/ZQphO/HkPFOJ7BNUTgl1pKqLh+lbkMVWnpzRZhhykNe6b54NO8ZcC/rNms0NT6IbdGgtT9DzoMnKkWokCAwEAAQ==
-      type: com.alibaba.druid.pool.DruidDataSource
-      url: jdbc:mysql://192.168.1.103:3306/user1?useUnicode=true&characterEncoding=utf-8&rewriteBatchedStatements=true&autoReconnect=true&failOverReadOnly=false&useSSL=false&allowMultiQueries=true
-      username: root
-      password: nlfUp7Nz/H35aWkz/bp+P2YjQa4tBolqpycvd/vMR/NM6d41jutoZURacjzgyif2Q6lW/SlhuXf6z//c9+n4ZA==
-      # 单数据源情况下默认自动解密，多数据源需要配置回调方法手动解密
-      passwordCallbackClassName: com.zjz.utils.DbPasswordCallback
-      connection-properties: config.decrypt=true;publicKey=${spring.datasource.master.publicKey};password=${spring.datasource.master.password}
-      # 启用ConfigFilter
-      filter:
-        config:
-          enabled: true
-      driverClassName: com.mysql.jdbc.Driver
-    slave1: #从数据库1
-      publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALL4lS/ZQphO/HkPFOJ7BNUTgl1pKqLh+lbkMVWnpzRZhhykNe6b54NO8ZcC/rNms0NT6IbdGgtT9DzoMnKkWokCAwEAAQ==
-      type: com.alibaba.druid.pool.DruidDataSource
-      url: jdbc:mysql://192.168.1.103:3306/user2?useUnicode=true&characterEncoding=utf-8&rewriteBatchedStatements=true&autoReconnect=true&failOverReadOnly=false&useSSL=false&allowMultiQueries=true
-      username: root   
-      password: nlfUp7Nz/H35aWkz/bp+P2YjQa4tBolqpycvd/vMR/NM6d41jutoZURacjzgyif2Q6lW/SlhuXf6z//c9+n4ZA==
-      # 配置 connection-properties，启用加密，配置公钥。
+##eureka:
+##  client:
+##    service-url: # EurekaServer地址
+##      defaultZone: http://127.0.0.1:10086/eureka
+##  instance:
+##    prefer-ip-address: true # 当调用getHostname获取实例的hostname时，返回ip而不是host名称
+##    ip-address: 127.0.0.1 # 指定自己的ip信息，不指定的话会自己寻找
+#
+#spring:
+#  application:
+#    name: user-server # 应用名称，会在Eureka中显示
+#  thymeleaf:
+#    cache: false #关闭模板缓存
+# # activemq:
+# #   broker-url: tcp://localhost:61616
+# #   queuename: queuemessage
+# #   topicname: topicmessage
+# # jms:
+#  #  pub-sub-domain: true #开启支持topic广播
+#  redis: localhost
+#  datasource:
+#    master: #主数据库
+#      publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALL4lS/ZQphO/HkPFOJ7BNUTgl1pKqLh+lbkMVWnpzRZhhykNe6b54NO8ZcC/rNms0NT6IbdGgtT9DzoMnKkWokCAwEAAQ==
+#      type: com.alibaba.druid.pool.DruidDataSource
+#      url: jdbc:mysql://localhost:3306/user1?useUnicode=true&characterEncoding=utf-8&rewriteBatchedStatements=true&autoReconnect=true&failOverReadOnly=false&useSSL=false&allowMultiQueries=true
+#      username: root
+#      password: nlfUp7Nz/H35aWkz/bp+P2YjQa4tBolqpycvd/vMR/NM6d41jutoZURacjzgyif2Q6lW/SlhuXf6z//c9+n4ZA==
+#      # 单数据源情况下默认自动解密，多数据源需要配置回调方法手动解密
 #      passwordCallbackClassName: com.zjz.utils.DbPasswordCallback
-      connection-properties: config.decrypt=true;publicKey=${spring.datasource.slave1.publicKey};password=${spring.datasource.slave1.password}
-      # 启用ConfigFilter
-      filter:
-        config:
-          enabled: true
-      driverClassName: com.mysql.jdbc.Driver
-    slave2: #从数据库2
-      publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALL4lS/ZQphO/HkPFOJ7BNUTgl1pKqLh+lbkMVWnpzRZhhykNe6b54NO8ZcC/rNms0NT6IbdGgtT9DzoMnKkWokCAwEAAQ==
-      type: com.alibaba.druid.pool.DruidDataSource
-      url: jdbc:mysql://192.168.1.103:3306/user3?useUnicode=true&characterEncoding=utf-8&rewriteBatchedStatements=true&autoReconnect=true&failOverReadOnly=false&useSSL=false&allowMultiQueries=true
-      username: root   
-      password: nlfUp7Nz/H35aWkz/bp+P2YjQa4tBolqpycvd/vMR/NM6d41jutoZURacjzgyif2Q6lW/SlhuXf6z//c9+n4ZA==
-      # 配置 connection-properties，启用加密，配置公钥。
-      passwordCallbackClassName: com.zjz.utils.DbPasswordCallback
-      connection-properties: config.decrypt=true;publicKey=${spring.datasource.slave2.publicKey};password=${spring.datasource.slave2.password}
-      # 启用ConfigFilter
-      filter:
-        config:
-          enabled: true
-      driverClassName: com.mysql.jdbc.Driver
-mybatis:
-  type-aliases-package: com.zjz.entity
-  mapper-locations: classpath*:mappers/*.xml
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#      connection-properties: config.decrypt=true;publicKey=${spring.datasource.master.publicKey};password=${spring.datasource.master.password}
+#      # 启用ConfigFilter
+#      filter:
+#        config:
+#          enabled: true
+#      driverClassName: com.mysql.jdbc.Driver
+#    slave1: #从数据库1
+#      publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALL4lS/ZQphO/HkPFOJ7BNUTgl1pKqLh+lbkMVWnpzRZhhykNe6b54NO8ZcC/rNms0NT6IbdGgtT9DzoMnKkWokCAwEAAQ==
+#      type: com.alibaba.druid.pool.DruidDataSource
+#      url: jdbc:mysql://localhost:3306/user2?useUnicode=true&characterEncoding=utf-8&rewriteBatchedStatements=true&autoReconnect=true&failOverReadOnly=false&useSSL=false&allowMultiQueries=true
+#      username: root
+#      password: nlfUp7Nz/H35aWkz/bp+P2YjQa4tBolqpycvd/vMR/NM6d41jutoZURacjzgyif2Q6lW/SlhuXf6z//c9+n4ZA==
+#      # 配置 connection-properties，启用加密，配置公钥。
+#      passwordCallbackClassName: com.zjz.utils.DbPasswordCallback
+#      connection-properties: config.decrypt=true;publicKey=${spring.datasource.slave1.publicKey};password=${spring.datasource.slave1.password}
+#      # 启用ConfigFilter
+#      filter:
+#        config:
+#          enabled: true
+#      driverClassName: com.mysql.jdbc.Driver
+#    slave2: #从数据库2
+#      publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALL4lS/ZQphO/HkPFOJ7BNUTgl1pKqLh+lbkMVWnpzRZhhykNe6b54NO8ZcC/rNms0NT6IbdGgtT9DzoMnKkWokCAwEAAQ==
+#      type: com.alibaba.druid.pool.DruidDataSource
+#      url: jdbc:mysql://localhost:3306/user3?useUnicode=true&characterEncoding=utf-8&rewriteBatchedStatements=true&autoReconnect=true&failOverReadOnly=false&useSSL=false&allowMultiQueries=true
+#      username: root
+#      password: nlfUp7Nz/H35aWkz/bp+P2YjQa4tBolqpycvd/vMR/NM6d41jutoZURacjzgyif2Q6lW/SlhuXf6z//c9+n4ZA==
+#      # 配置 connection-properties，启用加密，配置公钥。
+#      passwordCallbackClassName: com.zjz.utils.DbPasswordCallback
+#      connection-properties: config.decrypt=true;publicKey=${spring.datasource.slave2.publicKey};password=${spring.datasource.slave2.password}
+#      # 启用ConfigFilter
+#      filter:
+#        config:
+#          enabled: true
+#      driverClassName: com.mysql.jdbc.Driver
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#mybatis:
+#  type-aliases-package: com.zjz.pojo
+#  mapper-locations: classpath*:mappers/*.xml
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
